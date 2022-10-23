@@ -4,7 +4,7 @@
     <img src="https://github.com/ardzz/dasar-pemrogaman-2/raw/master/images/logo-polines.png" alt="Logo Polines" width="300" height="300">
 </p>
 
-### Anggota Kelompok
+### Anggota Kelompok Tim Cyb0x1
 - Ade Rahmat S
 - Naufal Reky A
 - M Fatkhur Rahman
