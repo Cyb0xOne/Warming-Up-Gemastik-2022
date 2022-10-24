@@ -151,5 +151,5 @@ Gemastik2022({b4Ks®_M4laNg}
 
 Semalas-malasnya kami, tetapi kami tidak malas untuk mengganti `®` menjadi `0` maka flag yang benar adalah
 ```
-Gemastik2022({b4Ks0_M4laNg}
+Gemastik2022{b4Ks0_M4laNg}
 ```
