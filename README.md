@@ -17,3 +17,5 @@ Kami juga berharap write-up ini bisa bermanfaat bagi mahasiswa Politeknik Negeri
 ### Soal Pemanasan Gemastik 2022
 1. [x0r](challenges/x0r)
 2. [Encoder Decoder](challenges/Encoder-Decoder)
+3. [So Meta](challenges/So%20Meta)
+4. [Where is my flag??](challenges/Where%20is%20my%20flag%3F%3F)
