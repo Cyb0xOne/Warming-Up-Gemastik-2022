@@ -140,7 +140,7 @@ Berikut adalah isi dari file `trailing_data.jpg`
 
 ![](trailing_data.jpg)
 
-Flag sudah didapatkan, selanjutnya ambil teks dari gambar tersebut dengan menggunakan `tesseract` dikarenakan saya sangat malas sekali untuk menulis ulang teks tersebut
+Flag sudah didapatkan, selanjutnya ambil teks dari gambar tersebut dengan menggunakan `tesseract` dikarenakan kami sangat teramat malas sekali untuk menulis ulang teks tersebut
 
 ```bash
 $ tesseract trailing_data.jpg flag
