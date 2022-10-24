@@ -30,7 +30,7 @@ Penjelasan kode di atas:
 * `plaintext = plaintext[::-1]` merupakan operasi `reverse` pada `plaintext`
 * `ciphertext = ""` merupakan variabel yang akan menyimpan hasil enkripsi
 * `for i in plaintext:` merupakan perulangan untuk setiap karakter pada `plaintext`
-* `copy = "X" * ((ord(i) ^ 0x50) + 9)` merupakan operasi `xor` antara karakter pada `plaintext` dengan hexadesimal `0x50` kemudian ditambah `9` dan diulangi sebanyak hasil operasi tersebut. Yang nantinya karakter `X` akan diulang sebanyak hasil operasi tersebut.
+* `copy = "X" * ((ord(i) ^ 0x50) + 9)` merupakan operasi `xor` antara karakter pada `plaintext` dengan hexadesimal `0x50` kemudian ditambah `9` Yang nantinya karakter `X` akan diulang sebanyak hasil operasi tersebut.
 * Misal, jika hasil operasi `xor` adalah 41. Maka karakter `X` akan dikalikan sebanyak (41 + 9). Sampai sini pahamkan? Okay lanjut!
 * `copy += "-"` merupakan operasi penambahan `-` pada setiap karakter pada `ciphertext`, nantinya karakter `-` akan dijadikan sebagai pemisah antara jumlah karakter `X` yang sudah dikalikan dengan (_N_ + 9), dimana _N_ adalah hasil operasi `xor`
 * `ciphertext += copy` merupakan operasi penambahan `copy` pada `ciphertext`
@@ -54,6 +54,7 @@ def decrypt(ciphertext):
 ```
 Penjelasan kode di atas:
 * `ciphertext = ciphertext.split("-")` merupakan operasi pemisahan antara karakter `-` pada `ciphertext`
+* `ciphertext = ciphertext[:-1]` merupakan operasi penghapusan karakter `-` pada `ciphertext`
 * `plaintext = ""` merupakan variabel yang akan menyimpan hasil dekripsi
 * `for i in ciphertext:` merupakan perulangan untuk setiap karakter pada `ciphertext`
 * `plaintext = chr((len(i) - 9) ^ 0x50)` merupakan operasi `xor` antara jumlah karakter pada `ciphertext` dengan hexadesimal `0x50` kemudian dikurangi `9`
