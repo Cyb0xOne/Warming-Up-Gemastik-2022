@@ -8,6 +8,7 @@
 
 ### Description
 Disajikan sebuah file berekstensi `.jpg` yang berisi gambar, namun dari gambar tersebut tidak dapat dilihat apapun selain gambar gedung biasa
+
 ![](profile.jpg)
 
 Resource file: [profile.jpg](profile.jpg)
